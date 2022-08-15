@@ -66,15 +66,17 @@ public class Runner {
         System.out.println("numbers: " + numbers);
 
 //        1. Print out a list of the even integers
-        ArrayList<Integer> even = new ArrayList<Integer>();
-        for (int i = 0; i < numbers.size(); i++){
-            if(numbers[i]%2==0){
-                even.add(numbers[i]);
-                System.out.println(even);
-            }
-        }
+//        ArrayList<Integer> even = new ArrayList<Integer>();
+//        for (int i = 0; i < numbers.size(); i++){
+//            if(i % 2 == 0){
+//                even.add(i);
+//                System.out.println(even);
+//            }
+//        } // THIS IS INCORRECT BUT I'M STUCK, HAVE BEEN GOOGLING FOR AN HOUR AND MOVING ON
 
 //        2. Print the difference between the largest and smallest value
+
+
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
