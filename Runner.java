@@ -66,9 +66,12 @@ public class Runner {
         System.out.println("numbers: " + numbers);
 
 //        1. Print out a list of the even integers
+        ArrayList<Integer> even = new ArrayList<Integer>();
         for (int i = 0; i < numbers.size(); i++){
-            int number = numbers.get(i);
-            System.out.println(number);
+            if(numbers[i]%2==0){
+                even.add(numbers[i]);
+                System.out.println(even);
+            }
         }
 
 //        2. Print the difference between the largest and smallest value
