@@ -17,6 +17,7 @@ public class Runner {
 //        1. Add "Coll" to the end of the list
         scottishIslands.add("Coll");
         System.out.println(scottishIslands);
+
 //        2. Add "Tiree" to the start of the list
         scottishIslands.add("Tiree");
         String tiree = "Tiree";
@@ -24,6 +25,7 @@ public class Runner {
         scottishIslands.remove(tireePos);
         scottishIslands.add(0,tiree);
         System.out.println(scottishIslands);
+
 //        3. Add "Islay" after "Jura" and before "Mull"
         scottishIslands.add("Islay");
         String islay = "Islay";
@@ -31,20 +33,26 @@ public class Runner {
         scottishIslands.remove(islayPos);
         scottishIslands.add(2, islay);
         System.out.println(scottishIslands);
+
 //        4. Print out the index position of "Skye"
         int pos=scottishIslands.indexOf("Skye");
         System.out.println("The index position of Skye is " + pos);
+
 //        5. Remove "Tresco" from the list by name
         scottishIslands.remove("Tresco");
         System.out.println(scottishIslands);
+
 //        6. Remove "Arran" from the list by index
         scottishIslands.remove(5);
         System.out.println(scottishIslands);
+
 //        7. Print the number of islands in your arraylist
         System.out.println("There are " + scottishIslands.size() + " islands in the arraylist.");
+
 //        8. Sort the list alphabetically
         Collections.sort(scottishIslands);
         System.out.println("Alphabetically sorted " + scottishIslands);
+
 //        9. Print out all the islands using a for loop
         System.out.println("Using enhanced for loop...");
         for (String island : scottishIslands){
@@ -58,6 +66,11 @@ public class Runner {
         System.out.println("numbers: " + numbers);
 
 //        1. Print out a list of the even integers
+        for (int i = 0; i < numbers.size(); i++){
+            int number = numbers.get(i);
+            System.out.println(number);
+        }
+
 //        2. Print the difference between the largest and smallest value
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
 //        4. Print the sum of the numbers,
